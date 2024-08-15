@@ -27,7 +27,7 @@ Bu proje, Go dilinde Redis ile temel veri yapılarını kullanmayı gösteren bi
 
 ÖNEMLİ! Redis Windows'ta desteklenmemektedir. Docker Desktop indirip kurmanız gerekiyor -> [Docker Linki] [https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe?utm_source=docker&utm_medium=webreferral&utm_campaign=dd-smartbutton&utm_location=module]
 
-Redisi Docker içerisinde kurduktan sonra örneğin docker run -d --name myredis -p 6379:6379 redis gibi bir kod girebilirsiniz. Bu komutta, ana makinedeki 6380 numaralı portu Redis konteynerinin 6379 numaralı portuna yönlendirir. Bu durumda, Redis sunucusuna erişmek için ana makinenizin localhost:6380 adresini kullanmanız gerekir. 
+Redisi Docker içerisinde kurduktan sonra örneğin docker run -d --name myredis -p 6380:6379 redis gibi bir kod girebilirsiniz. Bu komutta, ana makinedeki 6380 numaralı portu Redis konteynerinin 6379 numaralı portuna yönlendirir. Bu durumda, Redis sunucusuna erişmek için ana makinenizin localhost:6380 adresini kullanmanız gerekir. 
 
 myredis konteynerın adıdır. Docker'da konteynerlar, izole edilmiş çalışma ortamları sağlar ve her bir konteyner kendi adını taşır. Bu isim, konteyneri Docker içinde tanımlamak ve yönetmek için kullanılır.
 
